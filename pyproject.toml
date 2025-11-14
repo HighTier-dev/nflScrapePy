@@ -3,14 +3,14 @@ requires = ["uv_build>=0.8.15,<0.9.0"]
 build-backend = "uv_build"
 
 [project]
-name = "nflreadpy"
-version = "0.1.5"
+name = "nfl-scrap-py"
+version = "0.0.1"
 description = "A Python package for downloading NFL data from nflverse repositories"
 readme = "README.md"
 license = "MIT"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 authors = [
-    {name = "Tan Ho", email = "nflverse@tanho.ca"},
+    {name = "Trevor Wuerfel", email = "wuerfel.trevor@gmail.com"},
 ]
 keywords = ["nfl", "football", "sports", "data", "analytics"]
 classifiers = [
@@ -54,9 +54,9 @@ dev = [
 
 [project.urls]
 Homepage = "https://github.com/nflverse/nflreadpy"
-Repository = "https://github.com/nflverse/nflreadpy"
+Repository = "https://github.com/HighTier-dev/nfl-scrap-py"
 Documentation = "https://nflreadpy.nflverse.com"
-Issues = "https://github.com/nflverse/nflreadpy/issues"
+Issues = "https://github.com/HighTier-dev/nfl-scrap-py/issues"
 
 [tool.ruff]
 target-version = "py310"
@@ -87,7 +87,7 @@ skip-magic-trailing-comma = false
 line-ending = "auto"
 
 [tool.mypy]
-python_version = "3.10"
+python_version = "3.11"
 warn_return_any = true
 warn_unused_configs = true
 disallow_untyped_defs = true
