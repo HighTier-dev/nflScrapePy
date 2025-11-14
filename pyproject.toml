@@ -127,3 +127,6 @@ exclude_lines = [
     "if 0:",
     "if __name__ == .__main__.:",
 ]
+
+[tool.uv.extra-build-dependencies]
+nfl-scrap-py = ["uv_build.api"]
