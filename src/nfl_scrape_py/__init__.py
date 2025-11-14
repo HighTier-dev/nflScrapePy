@@ -7,7 +7,7 @@ nflverse repositories, with caching, progress tracking, and data validation.
 
 from importlib.metadata import version
 
-__version__ = version("nfl-scrap-py")
+__version__ = version("nfl_scrape_py")
 
 from .cache import clear_cache
 from .load_combine import load_combine
