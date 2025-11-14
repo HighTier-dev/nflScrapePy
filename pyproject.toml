@@ -3,7 +3,7 @@ requires = ["uv_build>=0.8.15,<0.9.0"]
 build-backend = "uv_build"
 
 [project]
-name = "nfl-scrap-py"
+name = "nfl_scrape_py"
 version = "0.0.1"
 description = "A Python package for downloading NFL data from nflverse repositories"
 readme = "README.md"
@@ -54,9 +54,9 @@ dev = [
 
 [project.urls]
 Homepage = "https://github.com/nflverse/nflreadpy"
-Repository = "https://github.com/HighTier-dev/nfl-scrap-py"
+Repository = "https://github.com/HighTier-dev/nfl_scrape_py"
 Documentation = "https://nflreadpy.nflverse.com"
-Issues = "https://github.com/HighTier-dev/nfl-scrap-py/issues"
+Issues = "https://github.com/HighTier-dev/nfl_scrape_py/issues"
 
 [tool.ruff]
 target-version = "py311"
